@@ -1,6 +1,8 @@
 package com.epsilon.training.project.banking;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 //import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
@@ -38,7 +40,7 @@ public class Main {
             switch(input) {
                 case 1: {
                     System.out.println("Enter new customer name: ");
-                    String name = scan.nextLine();
+                    String name = scan.nextLine();    
                     System.out.println("Enter customer address: ");
                     String address = scan.nextLine();
                     System.out.println("Enter customer PAN: ");
@@ -177,4 +179,6 @@ public class Main {
         }
         scan.close();
     }
-}
+}  
+
+
